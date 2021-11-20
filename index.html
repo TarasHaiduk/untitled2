@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
+          integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ"
+          crossorigin="anonymous">
+    <script src="js/bootstrap.js" ></script>
+</head>
+<body>
+<main class="container-fluid p-0">
+    <header>
+        <div class="brand d-lg-flex align-items-center">
+            <div class="brand-logo"><img class="pt-1 ps-1" src="./images/Vector_3.svg" alt=""></div>
+            <div class="brand-name"><p class="m-0">Gy<span class="move">move.</span></p></div>
+        </div>
+        <div class="d-flex workout">
+            <div class="toggle-icon me-2 me-lg-4"><img src="images/menu.svg" alt="" class="menu"></div>
+            <div class="workout-header">Workout Plan</div>
+        </div>
+        <div class="search-box">
+            <span class="me-2"><i class="fa fa-search" aria-hidden="true"></i></span>
+        </div>
+        <div class="search-area d-lg-flex align-items-center">
+            <span class="search-icon me-2"><i class="fa fa-search" aria-hidden="true"></i></span>
+            <span class="input-box">
+                    <input type="text" placeholder="Find something here..">
+                </span>
+        </div>
+        <div class="d-flex">
+            <div class="box notification">
+                <div class="active"></div>
+                <div><img src="images/notification.svg" alt="" class="box-img"></div>
+            </div>
+            <div class="box inbox ms-2">
+                <div class="active"></div>
+                <div><img src="images/inbox.svg" alt="" class="box-img"></div>
+            </div>
+            <div class="box reward ms-2">
+                <div class="active"></div>
+                <div><img src="images/reward.svg" alt="" class="box-img"></div>
+            </div>
+        </div>
+        <div class="profile d-flex align-items-center">
+            <div class="profile-img me-2">
+
+            </div>
+            <div class="profile-name me-3">
+                <span class="mb-0">Taras Haiduk</span>
+                <p class="mt-0 mb-0">Guide Tour</p>
+            </div>
+            <div class="dropdown-icon"><i class="fas fa-angle-down"></i></div>
+        </div>
+    </header>
+    <section class="sidebar">
+        <div class="main-menu mb-4"><p>Main Menu</p></div>
+        <div class="menu-item mb-3">
+            <span><img src="images/Vector.svg" alt="" class="menu-icon"></span>
+            <span class="d-flex align-items-center">Dashboard</span>
+        </div>
+        <div class="menu-item mb-3">
+            <span><i class="far fa-chart-bar"></i></span>
+            <span class="d-flex align-items-center">Workout Statistics</span>
+        </div>
+        <div class="menu-item active-menu mb-3">
+            <span><img src="images/plan.svg" alt="" class="menu-icon2"></span>
+            <span class="d-flex align-items-center">Workout Plan</span>
+        </div>
+        <div class="menu-item mb-3">
+            <span><img src="images/Vector (1).svg" alt="" class="menu-icon1"></span>
+            <span class="d-flex align-items-center">Distance Map</span>
+        </div>
+        <div class="menu-item mb-3">
+            <span><img src="images/Vector (2).svg" alt="" class="menu-icon"></span>
+            <span class="d-flex align-items-center">Diet Move Menu</span>
+        </div>
+        <div class="menu-item mb-2">
+            <span><i class="fas fa-weight"></i></span>
+            <span class="d-flex align-items-center">Personal Brand</span>
+        </div>
+        <div class="mt-5 mb-5">
+            <button type="button" class="btn plan-btn">Create Workout <br> Plan Now</button>
+        </div>
+        <div class="sidebar-footer">
+            <span><p class="mb-1">Gymove Fitness Admin Dashboard</p></span>
+            <span><p class="mb-4">c 2020 All Rights Reserved</p></span>
+            <span><p>Made with <span><i class="fas fa-heart"></i></span> by Peterdraw</p></span>
+        </div>
+    </section>
+    <section class="main-content">
+        <div class="left-side d-flex flex-column">
+            <div class="left">
+                <div class="left-div plan-div">
+                    <div>
+                        <span class="plan-list">Plan List</span>
+                        <p class="lorem"> Lorem ipsum dolor sit amet. </p>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <div class="d-flex px-1 px-lg-3 py-1 category">
+                            <span class="me-3 category-item">All</span>
+                            <span class="me-3 category-item">Unfinished</span>
+                            <span class="category-item">Finished</span>
+                        </div>
+                        <div class="d-flex filter">
+                            <span class="me-2"><i class="fas fa-sliders-h"></i></span>
+                            <span class="filter-text">Filter</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="inner-left">
+                    <div class="left-div">
+                        <div class="d-flex">
+                            <div class="plan-date">
+                                <span>4</span>
+                                <span class="days">Mon</span>
+                            </div>
+                            <div class="d-flex flex-column justify-content-between">
+                                <span class="plan-title">Weekly Routine Running</span>
+                                <span class="plan-progress unfinished">UNFINISHED</span>
+                            </div>
+                        </div>
+                        <div class="second-grid">
+                            <div class="running">
+                                <span class="me-2"><img src="images/running-solid.svg" alt="" class="run"></span>
+                                <span>Running</span>
+                            </div>
+                            <div class="start-btn">
+                                <span class="me-2"><img src="images/play.svg" alt="" class="play"></span>
+                                <span>Start Workout</span>
+                            </div>
+                            <div class="more"><img src="images/more-vertical.svg" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="left-div on-progress">
+                        <div class="d-flex">
+                            <div class="plan-date">
+                                <span>5</span>
+                                <span class="days">Tue</span>
+                            </div>
+                            <div class="d-flex flex-column justify-content-between">
+                                <span class="plan-title">Total Body Yoga Workout</span>
+                                <span class="plan-progress">ON PROGRESS</span>
+                            </div>
+                        </div>
+                        <div class="second-grid">
+                            <div class="yoga">
+                                <span class="me-2"><img src="images/Group.svg" alt="" class="yo"></span>
+                                <span>Yoga</span>
+                            </div>
+                            <div class="start-btn">
+                                <span class="me-2"><i class="fas fa-flag"></i></span>
+                                <span>Set Finish</span>
+                            </div>
+                            <div class="more"><img src="images/more-vertical-white.svg" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="left-div">
+                        <div class="d-flex">
+                            <div class="plan-date">
+                                <span>3</span>
+                                <span class="days">Sun</span>
+                            </div>
+                            <div class="d-flex flex-column justify-content-between">
+                                <span class="plan-title">Routine Cardio Burn Workout</span>
+                                <span class="plan-progress unfinished">UNFINISHED</span>
+                            </div>
+                        </div>
+                        <div class="second-grid">
+                            <div class="cycling">
+                                <span class="me-2"><img src="images/biking-solid.svg" alt="" class="cycle"></span>
+                                <span>Cycling</span>
+                            </div>
+                            <div class="start-btn">
+                                <span class="me-2"><img src="images/play.svg" alt="" class="play"></span>
+                                <span>Start Workout</span>
+                            </div>
+                            <div class="more"><img src="images/more-vertical.svg" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="left-div">
+                        <div class="d-flex">
+                            <div class="plan-date black">
+                                <span>28</span>
+                                <span class="days">Fri</span>
+                            </div>
+                            <div class="d-flex flex-column justify-content-between">
+                                <span class="plan-title">Weekly Routine Workout</span>
+                                <span class="plan-progress finished">FINISHED</span>
+                            </div>
+                        </div>
+                        <div class="second-grid">
+                            <div class="cycling">
+                                <span class="me-2"><img src="images/biking-solid.svg" alt="" class="cycle"></span>
+                                <span>Cycling</span>
+                            </div>
+                            <div class="more-section">
+                                <span class="text-drop mb-2">Edit</span>
+                                <span class="text-drop mb-2">Delete</span>
+                                <span class="text-drop">Force Finish</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="left-div">
+                        <div class="d-flex">
+                            <div class="plan-date black">
+                                <span>21</span>
+                                <span class="days">Tue</span>
+                            </div>
+                            <div class="d-flex flex-column justify-content-between">
+                                <span class="plan-title">2020 Runner Event Workout</span>
+                                <span class="plan-progress finished">FINISHED</span>
+                            </div>
+                        </div>
+                        <div class="second-grid">
+                            <div class="running">
+                                <span class="me-2"><img src="images/running-solid.svg" alt="" class="run"></span>
+                                <span>Running</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="left-div">
+                        <div class="d-flex">
+                            <div class="plan-date black">
+                                <span>18</span>
+                                <span class="days">Sat</span>
+                            </div>
+                            <div class="d-flex flex-column justify-content-between">
+                                <span class="plan-title">Daily Running Workout</span>
+                                <span class="plan-progress finished">FINISHED</span>
+                            </div>
+                        </div>
+                        <div class="second-grid">
+                            <div class="running">
+                                <span class="me-2"><img src="images/running-solid.svg" alt="" class="run"></span>
+                                <span>Running</span>
+                            </div>
+                            <div class="start-btn">
+                                <span class="me-2"><img src="images/play.svg" alt="" class="play"></span>
+                                <span>Start Workout</span>
+                            </div>
+                            <div class="more"><img src="images/more-vertical.svg" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <section class="footer-section">
+                <div>
+                    <span class="data">Showing 10 from 46 data</span>
+                </div>
+                <div class="pagination">
+                    <span><img src="images/arrow-left.svg" alt="" class="pagination-btn2"></span>
+                    <span class="pagination-btn pagination-btn1 me-1">1</span>
+                    <span class="pagination-btn me-1">2</span>
+                    <span class="pagination-btn me-1">3</span>
+                    <span class="pagination-btn me-3">4</span>
+                    <span><img src="images/arrow-right.svg" alt="" class="pagination-btn2"></span>
+                </div>
+            </section>
+        </div>
+
+
+        <div class="right">
+            <div class="calender p-3">
+                <div class="d-flex justify-content-between">
+                    <span class="navigation"><i class="fas fa-angle-left    "></i></span>
+                    <span class="month">September 2020</span>
+                    <span class="navigation"><i class="fas fa-angle-right"></i></span>
+                </div>
+                <div class="cal-days">
+                    <div class="cal">Mon</div>
+                    <div class="cal">Tue</div>
+                    <div class="cal">Wed</div>
+                    <div class="cal">Thu</div>
+                    <div class="cal">Fri</div>
+                    <div class="cal">Sat</div>
+                    <div class="cal">Sun</div>
+                    <div class="cal">1</div>
+                    <div class="cal">2</div>
+                    <div class="cal cal-orange">3</div>
+                    <div class="cal">4</div>
+                    <div class="cal cal-orange">5</div>
+                    <div class="cal">6</div>
+                    <div class="cal">7</div>
+                    <div class="cal">8</div>
+                    <div class="cal">9</div>
+                    <div class="cal">10</div>
+                    <div class="cal">11</div>
+                    <div class="cal">12</div>
+                    <div class="cal">13</div>
+                    <div class="cal">14</div>
+                    <div class="cal">15</div>
+                    <div class="cal cal-orange">16</div>
+                    <div class="cal">17</div>
+                    <div class="cal">18</div>
+                    <div class="cal">19</div>
+                    <div class="cal">20</div>
+                    <div class="cal">21</div>
+                    <div class="cal">22</div>
+                    <div class="cal">23</div>
+                    <div class="cal">24</div>
+                    <div class="cal">25</div>
+                    <div class="cal">26</div>
+                    <div class="cal event">27 <span class="dot"></span></div>
+                    <div class="cal">28</div>
+                    <div class="cal">29</div>
+                    <div class="cal">30</div>
+                    <div class="cal">31</div>
+                    <div class="cal overflow">1</div>
+                    <div class="cal overflow">2</div>
+                    <div class="cal overflow">3</div>
+                    <div class="cal overflow">4</div>
+                </div>
+            </div>
+            <div class="routine p-3 pb-4 mt-1 pt-2">
+                <div class="mb-2"><span class="fw-bold">Next week plan</span></div>
+                <div class="plan">
+                    <div class="date">3</div>
+                    <div class="d-flex flex-column">
+                        <span>Cardio Exercise</span>
+                        <span class="target">12 sets | 16mins</span>
+                    </div>
+                </div>
+                <div class="plan">
+                    <div class="date">5</div>
+                    <div class="d-flex flex-column">
+                        <span>Cycling Routine</span>
+                        <span class="target">20Km target distances</span>
+                    </div>
+                </div>
+                <div class="plan">
+                    <div class="date">16</div>
+                    <div class="d-flex flex-column">
+                        <span>Cycling Routine</span>
+                        <span class="target">20Km target distances</span>
+                    </div>
+                </div>
+                <span class="plus-circle"><i class="fas fa-plus"></i></span>
+            </div>
+        </div>
+    </section>
+</main>
+</html>
